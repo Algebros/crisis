@@ -15,7 +15,7 @@ function CharacterFilter({ uniqueClasses, selectedClasses, handleClassChange }) 
     return (
         <div>
             <div className="character-filter-container">
-            <Button onClick={toggleExpanded} className="toggle-button">
+            <Button variant="contained" onClick={toggleExpanded} className="toggle-button">
                 {expanded ? 'Hide Filters' : 'Show Filters'}
             </Button>
             </div>
