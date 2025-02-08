@@ -1,7 +1,7 @@
 {
   "name": "partyanimals",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://algebros.github.io/crisis",
   "dependencies": {
     "@emotion/react": "^11.14.0",
