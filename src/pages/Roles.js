@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import data from '../assets/data.json';
-import { Container, Typography, List, ListItem, ListItemText } from '@mui/material';
+import { Container, Typography, Accordion, AccordionSummary, AccordionDetails } from '@mui/material';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 function Roles() {
   const [factions, setFactions] = useState({});
@@ -19,34 +20,31 @@ function Roles() {
 
   return (
     <Container>
-      <Typography variant="h1" gutterBottom>
+      {/* <Typography variant="h1" gutterBottom>
         Roles Page
-      </Typography>
+      </Typography> */}
       {Object.keys(factions).map(faction => (
         <div key={faction}>
           <Typography variant="h2" gutterBottom>
             {faction}
           </Typography>
-          <List>
-            {factions[faction].map(role => (
-              <ListItem key={role.name}>
-                <ListItemText
-                  primary={role.name}
-                  secondary={
-                    <>
-                      <Typography component="span" variant="body2" color="textPrimary">
-                        Description: {role.description}
-                      </Typography>
-                      <br />
-                      <Typography component="span" variant="body2" color="textPrimary">
-                        Skill: {role.skill}
-                      </Typography>
-                    </>
-                  }
-                />
-              </ListItem>
-            ))}
-          </List>
+          {factions[faction].map(role => (
+            <Accordion key={role.name}>
+              <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+                <Typography variant="h6">{role.name}</Typography>
+              </AccordionSummary>
+              <AccordionDetails>
+                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
+                  <Typography component="span" variant="body2" color="textPrimary">
+                    <span style={{ fontWeight: 'bold' }}>Description:</span> {role.description}
+                  </Typography>
+                  <Typography component="span" variant="body2" color="textPrimary">
+                    <span style={{ fontWeight: 'bold' }}>Skill:</span> {role.skill}
+                  </Typography>
+                </div>
+              </AccordionDetails>
+            </Accordion>
+          ))}
         </div>
       ))}
     </Container>
