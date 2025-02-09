@@ -15,13 +15,13 @@ function CharacterFilter({ uniqueClasses, selectedClasses, handleClassChange }) 
     return (
         <div>
             <div className="character-filter-container">
-            <Button variant="contained" onClick={toggleExpanded} className="toggle-button">
-                {expanded ? 'Hide Filters' : 'Show Filters'}
-            </Button>
+                <Button variant="contained" onClick={toggleExpanded} className="toggle-button">
+                    {expanded ? 'Hide Filters' : 'Show Filters'}
+                </Button>
             </div>
-            <div>
+            <div className="character-filter">
                 {expanded && (
-                    <FormGroup row className="character-filter">
+                    <FormGroup row>
                         {uniqueClasses.map((cls) => (
                             <FormControlLabel
                                 key={cls}

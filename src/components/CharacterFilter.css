@@ -1,9 +1,17 @@
 .character-filter-container {
-    display: flex;
-    justify-content: flex-end; /* Align the button to the right */
-    margin-bottom: 16px; /* Add some space below the button */
-  }
-  
-  .toggle-button {
-    align-self: flex-start; /* Align the button to the top */
-  }
+  display: flex;
+  justify-content: flex-end; /* Changed from center to flex-end */
+  margin: 20px 0;
+}
+
+.toggle-button {
+  margin-bottom: 16px;
+}
+
+.character-filter {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap; /* Changed from wrap to nowrap */
+  gap: 8px;
+  justify-content: center; /* Changed from flex-start to center */
+}
