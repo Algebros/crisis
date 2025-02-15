@@ -25,8 +25,11 @@ function Roles() {
       </Typography> */}
       {Object.keys(factions).map(faction => (
         <div key={faction}>
-          <Typography variant="h2" gutterBottom>
+          <Typography variant="h3" gutterBottom style={{ margin: '20px 0' }}>
             {faction}
+          </Typography>
+          <Typography variant="body1" gutterBottom>
+            {data.factions[faction]}
           </Typography>
           {factions[faction].map(role => (
             <Accordion key={role.name}>
@@ -39,7 +42,7 @@ function Roles() {
                     <span style={{ fontWeight: 'bold' }}>Description:</span> {role.description}
                   </Typography>
                   <Typography component="span" variant="body2" color="textPrimary">
-                    <span style={{ fontWeight: 'bold' }}>Skill:</span> {role.skill}
+                    <span style={{ fontWeight: 'bold' }}>Feature:</span> {role.feature}
                   </Typography>
                 </div>
               </AccordionDetails>

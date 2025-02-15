@@ -552,125 +552,131 @@
             "imageUrl": "Yurusa.png"
         }
     ],
-    "factions": {
-        "Goodie": "Transport fuel and complete tasks. The ship reaches its destination after 3 jumps OR eliminate all non-Goodie players.",
-        "Killer": "Eliminate other players and prevent the ship from reaching its destination.",
-        "Neutral": "You play as yourself, depending on your feature, kill everyone or be voted out on meeting to win."
-    },
+    "factions": [
+        {
+            "name": "Goodie"
+        },
+        {
+            "name": "Killer"
+        },
+        {
+            "name": "Neutral"
+        }
+    ],
     "roles": [
         {
             "name": "Average Goodie",
-            "description": "",
+            "description": "Транспортируйте топливо и выполняйте задачи. Корабль достигает своей цели после 3 прыжков или устраните всех игроков, не являющихся Goodie.",
             "faction": "Goodie",
-            "feature": "Can’t do anything special."
+            "feature": "Не может делать ничего особенного."
         },
         {
             "name": "Streamer",
-            "description": "",
+            "description": "Транспортируйте топливо и выполняйте задачи. Корабль достигает своей цели после 3 прыжков или устраните всех игроков, не являющихся Goodie.",
             "faction": "Goodie",
-            "feature": "Notifies all goodies upon death."
+            "feature": "Уведомляет всех Goodie о своей смерти."
         },
         {
             "name": "Screamer",
-            "description": "",
+            "description": "Транспортируйте топливо и выполняйте задачи. Корабль достигает своей цели после 3 прыжков или устраните всех игроков, не являющихся Goodie.",
             "faction": "Goodie",
-            "feature": "Triggers a meeting when killed."
+            "feature": "Вызывает собрание при убийстве."
         },
         {
             "name": "Security",
-            "description": "",
+            "description": "Транспортируйте топливо и выполняйте задачи. Корабль достигает своей цели после 3 прыжков или устраните всех игроков, не являющихся Goodie.",
             "faction": "Goodie",
-            "feature": "Can kill other players. Eliminated if killing a goodie."
+            "feature": "Может убивать других игроков. Устраняется, если убивает Goodie."
         },
         {
             "name": "One Shot",
-            "description": "",
+            "description": "Транспортируйте топливо и выполняйте задачи. Корабль достигает своей цели после 3 прыжков или устраните всех игроков, не являющихся Goodie.",
             "faction": "Goodie",
-            "feature": "Can kill other players, but only once."
+            "feature": "Может убивать других игроков, но только один раз."
         },
         {
             "name": "Wolf Granny",
-            "description": "",
+            "description": "Транспортируйте топливо и выполняйте задачи. Корабль достигает своей цели после 3 прыжков или устраните всех игроков, не являющихся Goodie.",
             "faction": "Goodie",
-            "feature": "Killers think you’re one of them."
+            "feature": "Убийцы думают, что вы один из них."
         },
         {
             "name": "Avenger",
-            "description": "",
+            "description": "Транспортируйте топливо и выполняйте задачи. Корабль достигает своей цели после 3 прыжков или устраните всех игроков, не являющихся Goodie.",
             "faction": "Goodie",
-            "feature": "Gains a brief kill ability after witnessing a murder."
+            "feature": "Получает кратковременную способность убивать после свидания с убийством."
         },
         {
             "name": "Detective",
-            "description": "",
+            "description": "Транспортируйте топливо и выполняйте задачи. Корабль достигает своей цели после 3 прыжков или устраните всех игроков, не являющихся Goodie.",
             "faction": "Goodie",
-            "feature": "Can check if a player killed someone between two meetings."
+            "feature": "Может проверить, убил ли игрок кого-то между двумя собраниями."
         },
         {
             "name": "Big Ear",
-            "description": "",
+            "description": "Транспортируйте топливо и выполняйте задачи. Корабль достигает своей цели после 3 прыжков или устраните всех игроков, не являющихся Goodie.",
             "faction": "Goodie",
-            "feature": "Can hear from farther away."
+            "feature": "Может слышать на большем расстоянии."
         },
         {
             "name": "Engineer",
-            "description": "",
+            "description": "Транспортируйте топливо и выполняйте задачи. Корабль достигает своей цели после 3 прыжков или устраните всех игроков, не являющихся Goodie.",
             "faction": "Goodie",
-            "feature": "Can use vents for a short time."
+            "feature": "Может использовать вентиляционные отверстия на короткое время."
         },
         {
             "name": "Forensic",
-            "description": "",
+            "description": "Транспортируйте топливо и выполняйте задачи. Корабль достигает своей цели после 3 прыжков или устраните всех игроков, не являющихся Goodie.",
             "faction": "Goodie",
-            "feature": "Examine killed players to learn information about the killer."
+            "feature": "Исследует убитых игроков, чтобы узнать информацию об убийце."
         },
         {
             "name": "Average Killer",
-            "description": "",
+            "description": "Устраните других игроков и не дайте кораблю достичь своей цели.",
             "faction": "Killer",
-            "feature": "Can use vents."
+            "feature": "Может использовать вентиляционные отверстия."
         },
         {
             "name": "Invisible Killer",
-            "description": "",
+            "description": "Устраните других игроков и не дайте кораблю достичь своей цели.",
             "faction": "Killer",
-            "feature": "Can turn invisible, but can’t see others while invisible."
+            "feature": "Может становиться невидимым, но не видит других, будучи невидимым."
         },
         {
             "name": "Pro Killer",
-            "description": "",
+            "description": "Устраните других игроков и не дайте кораблю достичь своей цели.",
             "faction": "Killer",
-            "feature": "Kills silently and hides the victim."
+            "feature": "Убивает бесшумно и прячет жертву."
         },
         {
             "name": "Face/Off Killer",
-            "description": "",
+            "description": "Устраните других игроков и не дайте кораблю достичь своей цели.",
             "faction": "Killer",
-            "feature": "Can take the appearance of another player for a short time."
+            "feature": "Может принимать облик другого игрока на короткое время."
         },
         {
             "name": "Dumbo",
-            "description": "Goal is to be voted out",
+            "description": "Цель - быть изгнанным",
             "faction": "Neutral",
-            "feature": "Wins if voted out."
+            "feature": "Побеждает, если изгнан."
         },
         {
             "name": "Death",
-            "description": "The last player alive.",
+            "description": "Последний выживший игрок.",
             "faction": "Neutral",
-            "feature": "Wins by killing everyone."
+            "feature": "Побеждает, убив всех."
         },
         {
             "name": "Carnivore",
-            "description": "The last player alive.",
+            "description": "Последний выживший игрок.",
             "faction": "Neutral",
-            "feature": "Can eat other players."
+            "feature": "Может поедать других игроков."
         },
         {
             "name": "Hakkar",
-            "description": "Infect all players between meetings.",
+            "description": "Заразите всех игроков между собраниями.",
             "faction": "Neutral",
-            "feature": "Wins by infecting everyone."
+            "feature": "Побеждает, заразив всех."
         }
     ]
 }
