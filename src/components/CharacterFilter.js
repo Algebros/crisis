@@ -1,12 +1,16 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Checkbox from '@mui/material/Checkbox';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import FormGroup from '@mui/material/FormGroup';
 import Button from '@mui/material/Button';
 import './CharacterFilter.css'; // Import the CSS file
+import { useTranslation } from 'react-i18next';
 
 function CharacterFilter({ uniqueClasses, selectedClasses, handleClassChange }) {
     const [expanded, setExpanded] = useState(false);
+    const { t, i18n } = useTranslation();
+
+    useEffect(() => {}, [i18n.language]);
 
     const toggleExpanded = () => {
         setExpanded(!expanded);
@@ -16,7 +20,7 @@ function CharacterFilter({ uniqueClasses, selectedClasses, handleClassChange }) 
         <div>
             <div className="character-filter-container">
                 <Button variant="contained" onClick={toggleExpanded} className="toggle-button">
-                    {expanded ? 'Hide Filters' : 'Show Filters'}
+                    {expanded ? t("UI.Hide Filter") : t("UI.Show Filter")}
                 </Button>
             </div>
             <div className="character-filter">
@@ -32,7 +36,7 @@ function CharacterFilter({ uniqueClasses, selectedClasses, handleClassChange }) 
                                         onChange={handleClassChange}
                                     />
                                 }
-                                label={`Is not ${cls}`}
+                                label={`${t("UI.Isnt")} ${cls}`}
                             />
                         ))}
                     </FormGroup>

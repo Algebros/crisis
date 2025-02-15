@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { MapContainer, ImageOverlay, Marker, Popup } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
-import './InteractiveMap.css'; // Import the CSS file
+import './InteractiveMap.css';
+import { useTranslation } from 'react-i18next';
 
 const bounds = [[0, 0], [1080, 1920]]; // Adjust the bounds according to your image dimensions
 
@@ -26,11 +27,24 @@ const terminalIcon = L.icon({
   popupAnchor: [0, -38] // Point from which the popup should open relative to the iconAnchor
 });
 
-const ventsText = "Ventilation System";
-const cameraText = "Security Camera";
-const terminalText = "Terminal";
+
 
 const InteractiveMap = () => {
+  const { t, i18n } = useTranslation();
+  const [ventsText, setVentilationText] = useState(false);
+  const [cameraText, setCameraText] = useState(false);
+  const [terminalText, setTerminalText] = useState(false);
+
+  useEffect(() => {
+    setVentilationText(t("UI.Ventilation System"));
+    setCameraText(t("UI.Security Camera"));
+    setTerminalText(t("UI.Terminal"));
+    // debugger
+    // var ventsText = t("Ventilation System");
+    // var cameraText = t("Security Camera");
+    // var terminalText = t("Terminal");
+  }, [i18n.language]);
+
   return (
     <MapContainer
       center={[600, 950]} // Center of the image

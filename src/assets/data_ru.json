@@ -3,20 +3,26 @@
         "Party Animals \"Crisis\" mode": "Режим \"Crisis\", Party Animals",
         "Forensic Clues": "Улики Forensic",
         "Roles": "Роли",
-        "Map": "Карта"
+        "Map": "Карта",
+        "Hide Filter": "Скрыть Фильтры",
+        "Show Filter": "Показать Фильтры",
+        "Isnt": "НЕ",
+        "Ventilation System":"Вентиляция",
+        "Security Camera": "Камера",
+        "Terminal": "Терминал"
     },
     "characters": [
         {
             "character": "Bacon",
             "classes": [
-                "Plant-Eating"
+                "Растительноядные"
             ],
             "imageUrl": "BaconAvatar.png"
         },
         {
             "character": "Barbara",
             "classes": [
-                "Plant-Eating"
+                "Растительноядные"
             ],
             "imageUrl": "barbara.webp",
             "mark": "true"
@@ -24,181 +30,181 @@
         {
             "character": "Barbie",
             "classes": [
-                "Fluffy",
-                "Plant-Eating"
+                "Пушистые",
+                "Растительноядные"
             ],
             "imageUrl": "BarbieAvatar.png"
         },
         {
             "character": "Bob",
             "classes": [
-                "Fluffy",
-                "Plant-Eating"
+                "Пушистые",
+                "Растительноядные"
             ],
             "imageUrl": "BobAvatar.png"
         },
         {
             "character": "Bruce",
             "classes": [
-                "Diving",
-                "Egg-Laying",
-                "Long-Tailed",
-                "Meat-Eating"
+                "Ныряющие",
+                "Яйцекладущие",
+                "Длиннохвостые",
+                "Мясоеды"
             ],
             "imageUrl": "BruceAvatar.png"
         },
         {
             "character": "Cabbage Dog",
             "classes": [
-                "Canines",
-                "Plant-Eating"
+                "Псовые",
+                "Растительноядные"
             ],
             "imageUrl": "Cabbage_Dog_Portrait.png"
         },
         {
             "character": "Carrot",
             "classes": [
-                "Fluffy",
-                "Plant-Eating"
+                "Пушистые",
+                "Растительноядные"
             ],
             "imageUrl": "CarrotAvatar.png"
         },
         {
             "character": "Coco",
             "classes": [
-                "Big-Eyed",
-                "Diving",
-                "Egg-Laying",
-                "Long-Tailed",
-                "Meat-Eating"
+                "Большеглазые",
+                "Ныряющие",
+                "Яйцекладущие",
+                "Длиннохвостые",
+                "Мясоеды"
             ],
             "imageUrl": "CocoAvatar.png"
         },
         {
             "character": "Curtis",
             "classes": [
-                "Big-Eyed",
-                "Egg-Laying",
-                "Horned",
-                "Long-Tailed",
-                "Plant-Eating"
+                "Большеглазые",
+                "Яйцекладущие",
+                "Рогатые",
+                "Длиннохвостые",
+                "Растительноядные"
             ],
             "imageUrl": "CurtisAvatar.png"
         },
         {
             "character": "Dodo",
             "classes": [
-                "Big-Eyed",
-                "Egg-Laying",
-                "Plant-Eating"
+                "Большеглазые",
+                "Яйцекладущие",
+                "Растительноядные"
             ],
             "imageUrl": "Dodo_Portrait.png"
         },
         {
             "character": "Dundun",
             "classes": [
-                "Big-Eyed",
-                "Felines",
-                "Fluffy",
-                "Long-Tailed",
-                "Meat-Eating"
+                "Большеглазые",
+                "Кошачьи",
+                "Пушистые",
+                "Длиннохвостые",
+                "Мясоеды"
             ],
             "imageUrl": "Dundun_Portrait.png"
         },
         {
             "character": "Fluffy",
             "classes": [
-                "Canines",
-                "Fluffy",
-                "Long-Tailed",
-                "Meat-Eating"
+                "Псовые",
+                "Пушистые",
+                "Длиннохвостые",
+                "Мясоеды"
             ],
             "imageUrl": "FluffyAvatar.png"
         },
         {
             "character": "Fubao",
             "classes": [
-                "Fluffy",
-                "Plant-Eating"
+                "Пушистые",
+                "Растительноядные"
             ],
             "imageUrl": "Fubao_Portrait.png"
         },
         {
             "character": "Fuguee",
             "classes": [
-                "Fluffy",
-                "Long-Tailed",
-                "Plant-Eating"
+                "Пушистые",
+                "Длиннохвостые",
+                "Растительноядные"
             ],
             "imageUrl": "Fuguee_Portrait.png"
         },
         {
             "character": "Garfat",
             "classes": [
-                "Felines",
-                "Fluffy",
-                "Long-Tailed",
-                "Meat-Eating"
+                "Кошачьи",
+                "Пушистые",
+                "Длиннохвостые",
+                "Мясоеды"
             ],
             "imageUrl": "GarfatAvatars.png"
         },
         {
             "character": "Googoo",
             "classes": [
-                "Big-Eyed",
-                "Egg-Laying",
-                "Flying",
-                "Long-Tailed",
-                "Plant-Eating"
+                "Большеглазые",
+                "Яйцекладущие",
+                "Летающие",
+                "Длиннохвостые",
+                "Растительноядные"
             ],
             "imageUrl": "Googoo_Portrait.png"
         },
         {
             "character": "Gopher",
             "classes": [
-                "Fluffy",
-                "Plant-Eating"
+                "Пушистые",
+                "Растительноядные"
             ],
             "imageUrl": "Gopher_Portrait.png"
         },
         {
             "character": "Hachi",
             "classes": [
-                "Canines",
-                "Fluffy",
-                "Long-Tailed",
-                "Meat-Eating"
+                "Псовые",
+                "Пушистые",
+                "Длиннохвостые",
+                "Мясоеды"
             ],
             "imageUrl": "Hachi_Shiba.webp"
         },
         {
             "character": "Hammer",
             "classes": [
-                "Diving",
-                "Egg-Laying",
-                "Long-Tailed",
-                "Meat-Eating"
+                "Ныряющие",
+                "Яйцекладущие",
+                "Длиннохвостые",
+                "Мясоеды"
             ],
             "imageUrl": "HammerAvatar.png"
         },
         {
             "character": "Harry",
             "classes": [
-                "Big-Eyed",
-                "Diving",
-                "Egg-Laying",
-                "Flying",
-                "Plant-Eating"
+                "Большеглазые",
+                "Ныряющие",
+                "Яйцекладущие",
+                "Летающие",
+                "Растительноядные"
             ],
             "imageUrl": "HarryAvatar.png"
         },
         {
             "character": "Hoot",
             "classes": [
-                "Big-Eyed",
-                "Egg-Laying",
-                "Flying",
-                "Meat-Eating"
+                "Большеглазые",
+                "Яйцекладущие",
+                "Летающие",
+                "Мясоеды"
             ],
             "imageUrl": "hoot.webp",
             "mark": "true"
@@ -206,80 +212,80 @@
         {
             "character": "Kato",
             "classes": [
-                "Canines",
-                "Fluffy",
-                "Long-Tailed",
-                "Meat-Eating"
+                "Псовые",
+                "Пушистые",
+                "Длиннохвостые",
+                "Мясоеды"
             ],
             "imageUrl": "Kato_Portrait.png"
         },
         {
             "character": "Kiko",
             "classes": [
-                "Felines",
-                "Fluffy",
-                "Long-Tailed",
-                "Meat-Eating"
+                "Кошачьи",
+                "Пушистые",
+                "Длиннохвостые",
+                "Мясоеды"
             ],
             "imageUrl": "Kiko_Portrait.png"
         },
         {
             "character": "Kola",
             "classes": [
-                "Fluffy",
-                "Plant-Eating"
+                "Пушистые",
+                "Растительноядные"
             ],
             "imageUrl": "Kola_Portrait.png"
         },
         {
             "character": "Levi",
             "classes": [
-                "Felines",
-                "Fluffy",
-                "Long-Tailed",
-                "Meat-Eating"
+                "Кошачьи",
+                "Пушистые",
+                "Длиннохвостые",
+                "Мясоеды"
             ],
             "imageUrl": "Levi.png"
         },
         {
             "character": "Lloyd",
             "classes": [
-                "Diving",
-                "Egg-Laying",
-                "Flying",
-                "Plant-Eating"
+                "Ныряющие",
+                "Яйцекладущие",
+                "Летающие",
+                "Растительноядные"
             ],
             "imageUrl": "LLOYD.png"
         },
         {
             "character": "Lotus",
             "classes": [
-                "Big-Eyed",
-                "Diving",
-                "Egg-Laying",
-                "Fluffy",
-                "Flying",
-                "Horned",
-                "Long-Tailed"
+                "Большеглазые",
+                "Ныряющие",
+                "Яйцекладущие",
+                "Пушистые",
+                "Летающие",
+                "Рогатые",
+                "Длиннохвостые"
             ],
             "imageUrl": "Lotus_Portrait.png"
         },
         {
             "character": "Lou",
             "classes": [
-                "Canines",
-                "Fluffy",
-                "Long-Tailed",
-                "Meat-Eating"
+                "Псовые",
+                "Пушистые",
+                "Длиннохвостые",
+                "Мясоеды"
             ],
             "imageUrl": "LouAvatar.png"
         },
         {
             "character": "Lamar",
             "classes": [
-                "Big-Eyed",
-                "Fluffy",
-                "Plant-Eating"
+                "Большеглазые",
+                "Пушистые",
+                "Растительноядные"
             ],
             "imageUrl": "lamar.webp",
             "mark": "true"
@@ -287,273 +293,273 @@
         {
             "character": "Macchiato",
             "classes": [
-                "Felines",
-                "Fluffy",
-                "Long-Tailed",
-                "Meat-Eating"
+                "Кошачьи",
+                "Пушистые",
+                "Длиннохвостые",
+                "Мясоеды"
             ],
             "imageUrl": "MacchiatoAvatar.png"
         },
         {
             "character": "Maneki",
             "classes": [
-                "Felines",
-                "Fluffy",
-                "Long-Tailed",
-                "Meat-Eating"
+                "Кошачьи",
+                "Пушистые",
+                "Длиннохвостые",
+                "Мясоеды"
             ],
             "imageUrl": "Maneki_Portrait.png"
         },
         {
             "character": "Max",
             "classes": [
-                "Canines",
-                "Fluffy",
-                "Long-Tailed",
-                "Meat-Eating"
+                "Псовые",
+                "Пушистые",
+                "Длиннохвостые",
+                "Мясоеды"
             ],
             "imageUrl": "Max.png"
         },
         {
             "character": "Milky",
             "classes": [
-                "Felines",
-                "Fluffy",
-                "Long-Tailed",
-                "Meat-Eating"
+                "Кошачьи",
+                "Пушистые",
+                "Длиннохвостые",
+                "Мясоеды"
             ],
             "imageUrl": "milky.webp"
         },
         {
             "character": "Moonmoon",
             "classes": [
-                "Big-Eyed",
-                "Egg-Laying",
-                "Flying",
-                "Meat-Eating"
+                "Большеглазые",
+                "Яйцекладущие",
+                "Летающие",
+                "Мясоеды"
             ],
             "imageUrl": "MoonmoonAvatar.png"
         },
         {
             "character": "Morse",
             "classes": [
-                "Fluffy",
-                "Horned",
-                "Plant-Eating"
+                "Пушистые",
+                "Рогатые",
+                "Растительноядные"
             ],
             "imageUrl": "MorseAvatar.png"
         },
         {
             "character": "Miu",
             "classes": [
-                "Felines",
-                "Fluffy",
-                "Long-Tailed",
-                "Meat-Eating"
+                "Кошачьи",
+                "Пушистые",
+                "Длиннохвостые",
+                "Мясоеды"
             ],
             "imageUrl": "miu.webp"
         },
         {
             "character": "Nemo",
             "classes": [
-                "Canines",
-                "Fluffy",
-                "Meat-Eating"
+                "Псовые",
+                "Пушистые",
+                "Мясоеды"
             ],
             "imageUrl": "NemoAvatar.png"
         },
         {
             "character": "Om Nom",
             "classes": [
-                "Big-Eyed",
-                "Plant-Eating"
+                "Большеглазые",
+                "Растительноядные"
             ],
             "imageUrl": "Om_Nom_Portrait.png"
         },
         {
             "character": "Ori",
             "classes": [
-                "Big-Eyed",
-                "Long-Tailed"
+                "Большеглазые",
+                "Длиннохвостые"
             ],
             "imageUrl": "Ori_Portrait.png"
         },
         {
             "character": "Otta",
             "classes": [
-                "Diving",
-                "Fluffy",
-                "Meat-Eating"
+                "Ныряющие",
+                "Пушистые",
+                "Мясоеды"
             ],
             "imageUrl": "OttaAvatar.png"
         },
         {
             "character": "Pensky",
             "classes": [
-                "Big-Eyed",
-                "Canines",
-                "Diving",
-                "Fluffy",
-                "Meat-Eating"
+                "Большеглазые",
+                "Псовые",
+                "Ныряющие",
+                "Пушистые",
+                "Мясоеды"
             ],
             "imageUrl": "Pensky_avatar.png"
         },
         {
             "character": "Ron",
             "classes": [
-                "Canines",
-                "Fluffy",
-                "Meat-Eating"
+                "Псовые",
+                "Пушистые",
+                "Мясоеды"
             ],
             "imageUrl": "ron.webp"
         },
         {
             "character": "Sam",
             "classes": [
-                "Canines",
-                "Fluffy",
-                "Long-Tailed",
-                "Meat-Eating"
+                "Псовые",
+                "Пушистые",
+                "Длиннохвостые",
+                "Мясоеды"
             ],
             "imageUrl": "Sam_Portrait.png"
         },
         {
             "character": "Shin",
             "classes": [
-                "Plant-Eating"
+                "Растительноядные"
             ],
             "imageUrl": "Shin_Portrait.png"
         },
         {
             "character": "Snow",
             "classes": [
-                "Canines",
-                "Fluffy",
-                "Long-Tailed",
-                "Meat-Eating"
+                "Псовые",
+                "Пушистые",
+                "Длиннохвостые",
+                "Мясоеды"
             ],
             "imageUrl": "Snow_Portrait.png"
         },
         {
             "character": "Skipper",
             "classes": [
-                "Diving",
-                "Egg-Laying",
-                "Meat-Eating"
+                "Ныряющие",
+                "Яйцекладущие",
+                "Мясоеды"
             ],
             "imageUrl": "skipper.webp"
         },
         {
             "character": "Sparky",
             "classes": [
-                "Canines",
-                "Long-Tailed",
-                "Meat-Eating"
+                "Псовые",
+                "Длиннохвостые",
+                "Мясоеды"
             ],
             "imageUrl": "SparkyAvatar-23.png"
         },
         {
             "character": "Spike",
             "classes": [
-                "Fluffy",
-                "Meat-Eating"
+                "Пушистые",
+                "Мясоеды"
             ],
             "imageUrl": "Spike_avatar.png"
         },
         {
             "character": "Stella",
             "classes": [
-                "Canines",
-                "Fluffy",
-                "Meat-Eating"
+                "Псовые",
+                "Пушистые",
+                "Мясоеды"
             ],
             "imageUrl": "stella.webp"
         },
         {
             "character": "Sunday",
             "classes": [
-                "Felines",
-                "Fluffy",
-                "Long-Tailed",
-                "Meat-Eating"
+                "Кошачьи",
+                "Пушистые",
+                "Длиннохвостые",
+                "Мясоеды"
             ],
             "imageUrl": "sunday.webp"
         },
         {
             "character": "Sunny",
             "classes": [
-                "Canines",
-                "Meat-Eating"
+                "Псовые",
+                "Мясоеды"
             ],
             "imageUrl": "Sunny_Portrait.png"
         },
         {
             "character": "The Lamb",
             "classes": [
-                "Big-Eyed",
-                "Fluffy",
-                "Horned"
+                "Большеглазые",
+                "Пушистые",
+                "Рогатые"
             ],
             "imageUrl": "The_Lamb_Portrait.png"
         },
         {
             "character": "Tiagra",
             "classes": [
-                "Felines",
-                "Fluffy",
-                "Long-Tailed",
-                "Meat-Eating"
+                "Кошачьи",
+                "Пушистые",
+                "Длиннохвостые",
+                "Мясоеды"
             ],
             "imageUrl": "TiagraAvatar.png"
         },
         {
             "character": "Tuskarr",
             "classes": [
-                "Diving",
-                "Meat-Eating"
+                "Ныряющие",
+                "Мясоеды"
             ],
             "imageUrl": "Tuskarr.png"
         },
         {
             "character": "Tyrex",
             "classes": [
-                "Egg-Laying"
+                "Яйцекладущие"
             ],
             "imageUrl": "Tyrex_avatar.png"
         },
         {
             "character": "Underbite",
             "classes": [
-                "Big-Eyed",
-                "Egg-Laying",
-                "Horned",
-                "Long-Tailed",
-                "Meat-Eating"
+                "Большеглазые",
+                "Яйцекладущие",
+                "Рогатые",
+                "Длиннохвостые",
+                "Мясоеды"
             ],
             "imageUrl": "UnderbiteAvatar.png"
         },
         {
             "character": "Uni",
             "classes": [
-                "Flying",
-                "Horned"
+                "Летающие",
+                "Рогатые"
             ],
             "imageUrl": "Uni.webp"
         },
         {
             "character": "Valiente",
             "classes": [
-                "Fluffy",
-                "Horned",
-                "Plant-Eating"
+                "Пушистые",
+                "Рогатые",
+                "Растительноядные"
             ],
             "imageUrl": "ValienteAvatar.png"
         },
         {
             "character": "Yurusa",
             "classes": [
-                "Flying",
-                "Plant-Eating"
+                "Летающие",
+                "Растительноядные"
             ],
             "imageUrl": "Yurusa.png"
         }

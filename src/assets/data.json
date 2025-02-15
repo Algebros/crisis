@@ -3,7 +3,13 @@
         "Party Animals \"Crisis\" mode": "Party Animals \"Crisis\" mode",
         "Forensic Clues": "Forensic Clues",
         "Roles": "Roles",
-        "Map": "Map"
+        "Map": "Map",
+        "Hide Filter": "Hide Filters",
+        "Show Filter": "Show Filters",
+        "Isnt": "Is not",
+        "Ventilation System":"Ventilation System",
+        "Security Camera": "Security Camera",
+        "Terminal":"Terminal"
     },
     "characters": [
         {
