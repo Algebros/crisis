@@ -16,6 +16,8 @@ import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import { createTheme, ThemeProvider, useMediaQuery } from '@mui/material';
 import { makeStyles } from '@mui/styles';
+import { useTranslation } from 'react-i18next';
+import i18n from './i18n';
 
 const theme = createTheme({
   spacing: 8,
@@ -45,6 +47,8 @@ function App() {
   const classes = useStyles();
   const [drawerOpen, setDrawerOpen] = useState(false);
   const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
+  const { t } = useTranslation();
+  const [language, setLanguage] = useState('en');
 
   const toggleDrawer = (open) => (event) => {
     if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
@@ -53,10 +57,16 @@ function App() {
     setDrawerOpen(open);
   };
 
+  const toggleLanguage = () => {
+    const newLanguage = language === 'en' ? 'ru' : 'en';
+    i18n.changeLanguage(newLanguage);
+    setLanguage(newLanguage);
+  };
+
   const menuItems = [
-    { text: 'Forensic Clues', path: '/characters' },
-    { text: 'Roles', path: '/roles' },
-    { text: 'Map', path: '/map' },
+    { text: t('UI.Forensic Clues'), path: '/characters' },
+    { text: t('UI.Roles'), path: '/roles' },
+    { text: t('UI.Map'), path: '/map' },
   ];
 
   const drawerList = () => (
@@ -84,7 +94,7 @@ function App() {
             <AppBar position="static">
               <Toolbar>
                 <Typography variant="h6" className={classes.title}>
-                  Party Animals "Crisis" mode
+                  {t('UI.Party Animals "Crisis" mode')}
                 </Typography>
                 <IconButton
                   edge="end"
@@ -95,6 +105,9 @@ function App() {
                 >
                   <MenuIcon />
                 </IconButton>
+                <Button color="inherit" onClick={toggleLanguage}>
+                  {language === 'en' ? 'RU' : 'EN'}
+                </Button>
                 <Drawer anchor="right" open={drawerOpen} onClose={toggleDrawer(false)}>
                   {drawerList()}
                 </Drawer>
@@ -104,13 +117,16 @@ function App() {
             <AppBar position="static">
               <Toolbar>
                 <Typography variant="h6" className={classes.title}>
-                  Party Animals "Crisis" mode
+                  {t('UI.Party Animals "Crisis" mode')}
                 </Typography>
                 {menuItems.map((item, index) => (
                   <Button key={index} color="inherit" component={Link} to={item.path} className={classes.link}>
                     {item.text}
                   </Button>
                 ))}
+                <Button color="inherit" onClick={toggleLanguage}>
+                  {language === 'en' ? 'RU' : 'EN'}
+                </Button>
               </Toolbar>
             </AppBar>
           )}

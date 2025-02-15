@@ -1,4 +1,10 @@
 {
+    "UI": {
+        "Party Animals \"Crisis\" mode": "Party Animals \"Crisis\" mode",
+        "Forensic Clues": "Forensic Clues",
+        "Roles": "Roles",
+        "Map": "Map"
+    },
     "characters": [
         {
             "character": "Bacon",
@@ -13,7 +19,7 @@
                 "Plant-Eating"
             ],
             "imageUrl": "barbara.webp",
-            "mark":"true"
+            "mark": "true"
         },
         {
             "character": "Barbie",
@@ -195,7 +201,7 @@
                 "Meat-Eating"
             ],
             "imageUrl": "hoot.webp",
-            "mark":"true"
+            "mark": "true"
         },
         {
             "character": "Kato",
@@ -276,7 +282,7 @@
                 "Plant-Eating"
             ],
             "imageUrl": "lamar.webp",
-            "mark":"true"
+            "mark": "true"
         },
         {
             "character": "Macchiato",
