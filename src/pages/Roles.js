@@ -2,9 +2,11 @@ import React, { useEffect, useState } from 'react';
 import data from '../assets/data.json';
 import { Container, Typography, Accordion, AccordionSummary, AccordionDetails } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import { useTranslation } from 'react-i18next';
 
 function Roles() {
   const [factions, setFactions] = useState({});
+  const { t, i18n } = useTranslation();
 
   useEffect(() => {
     const factionRoles = data.roles.reduce((acc, role) => {
@@ -16,7 +18,7 @@ function Roles() {
       return acc;
     }, {});
     setFactions(factionRoles);
-  }, []);
+  }, [i18n.language]); // Re-run effect when language changes
 
   return (
     <Container>
@@ -29,9 +31,9 @@ function Roles() {
             {faction}
           </Typography>
           <Typography variant="body1" gutterBottom>
-            {data.factions[faction]}
+          {t(`factions.${faction}`)}
           </Typography>
-          {factions[faction].map(role => (
+          {factions[faction].map((role, idx) => (
             <Accordion key={role.name}>
               <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                 <Typography variant="h6">{role.name}</Typography>
@@ -39,10 +41,10 @@ function Roles() {
               <AccordionDetails>
                 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
                   <Typography component="span" variant="body2" color="textPrimary">
-                    <span style={{ fontWeight: 'bold' }}>Description:</span> {role.description}
+                    <span style={{ fontWeight: 'bold' }}>Description:</span> {t(`roles.${idx}.description`)}
                   </Typography>
                   <Typography component="span" variant="body2" color="textPrimary">
-                    <span style={{ fontWeight: 'bold' }}>Feature:</span> {role.feature}
+                    <span style={{ fontWeight: 'bold' }}>Feature:</span> {t(`roles.${idx}.feature`)}
                   </Typography>
                 </div>
               </AccordionDetails>

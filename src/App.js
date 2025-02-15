@@ -106,7 +106,7 @@ function App() {
                   <MenuIcon />
                 </IconButton>
                 <Button color="inherit" onClick={toggleLanguage}>
-                  {language === 'en' ? 'RU' : 'EN'}
+                  {language === 'en' ? 'EN' : 'RU'}
                 </Button>
                 <Drawer anchor="right" open={drawerOpen} onClose={toggleDrawer(false)}>
                   {drawerList()}
@@ -125,7 +125,7 @@ function App() {
                   </Button>
                 ))}
                 <Button color="inherit" onClick={toggleLanguage}>
-                  {language === 'en' ? 'RU' : 'EN'}
+                  {language === 'en' ? 'EN' : 'RU'}
                 </Button>
               </Toolbar>
             </AppBar>

@@ -566,115 +566,115 @@
     "roles": [
         {
             "name": "Average Goodie",
-            "description": "",
+            "description": "Description 1",
             "faction": "Goodie",
             "feature": "Can’t do anything special."
         },
         {
             "name": "Streamer",
-            "description": "",
+            "description": "Description 2",
             "faction": "Goodie",
             "feature": "Notifies all goodies upon death."
         },
         {
             "name": "Screamer",
-            "description": "",
+            "description": "Description 3",
             "faction": "Goodie",
             "feature": "Triggers a meeting when killed."
         },
         {
             "name": "Security",
-            "description": "",
+            "description": "Description 4",
             "faction": "Goodie",
             "feature": "Can kill other players. Eliminated if killing a goodie."
         },
         {
             "name": "One Shot",
-            "description": "",
+            "description": "Description 5",
             "faction": "Goodie",
             "feature": "Can kill other players, but only once."
         },
         {
             "name": "Wolf Granny",
-            "description": "",
+            "description": "Description 6",
             "faction": "Goodie",
             "feature": "Killers think you’re one of them."
         },
         {
             "name": "Avenger",
-            "description": "",
+            "description": "Description 7",
             "faction": "Goodie",
             "feature": "Gains a brief kill ability after witnessing a murder."
         },
         {
             "name": "Detective",
-            "description": "",
+            "description": "Description 8",
             "faction": "Goodie",
             "feature": "Can check if a player killed someone between two meetings."
         },
         {
             "name": "Big Ear",
-            "description": "",
+            "description": "Description 9",
             "faction": "Goodie",
             "feature": "Can hear from farther away."
         },
         {
             "name": "Engineer",
-            "description": "",
+            "description": "Description 10",
             "faction": "Goodie",
             "feature": "Can use vents for a short time."
         },
         {
             "name": "Forensic",
-            "description": "",
+            "description": "Description 11",
             "faction": "Goodie",
             "feature": "Examine killed players to learn information about the killer."
         },
         {
             "name": "Average Killer",
-            "description": "",
+            "description": "Description 12",
             "faction": "Killer",
             "feature": "Can use vents."
         },
         {
             "name": "Invisible Killer",
-            "description": "",
+            "description": "Description 13",
             "faction": "Killer",
             "feature": "Can turn invisible, but can’t see others while invisible."
         },
         {
             "name": "Pro Killer",
-            "description": "",
+            "description": "Description 14",
             "faction": "Killer",
             "feature": "Kills silently and hides the victim."
         },
         {
             "name": "Face/Off Killer",
-            "description": "",
+            "description": "Description 15",
             "faction": "Killer",
             "feature": "Can take the appearance of another player for a short time."
         },
         {
             "name": "Dumbo",
-            "description": "Goal is to be voted out",
+            "description": "Description 16",
             "faction": "Neutral",
             "feature": "Wins if voted out."
         },
         {
             "name": "Death",
-            "description": "The last player alive.",
+            "description": "Description 17",
             "faction": "Neutral",
             "feature": "Wins by killing everyone."
         },
         {
             "name": "Carnivore",
-            "description": "The last player alive.",
+            "description": "Description 18",
             "faction": "Neutral",
             "feature": "Can eat other players."
         },
         {
             "name": "Hakkar",
-            "description": "Infect all players between meetings.",
+            "description": "Description 19",
             "faction": "Neutral",
             "feature": "Wins by infecting everyone."
         }
