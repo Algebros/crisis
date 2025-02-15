@@ -23,7 +23,7 @@ const terminalIcon = L.icon({
   iconUrl: require('../assets/terminal.png'), // Path to your custom marker image
   iconSize: [40, 40], // Adjust the size of the icon
   iconAnchor: [19, 38], // Point of the icon which will correspond to marker's location
-  popupAnchor: [0, -38] // Point from which the popup should open relative to the iconAnchor.
+  popupAnchor: [0, -38] // Point from which the popup should open relative to the iconAnchor
 });
 
 const ventsText = "Ventilation System";
