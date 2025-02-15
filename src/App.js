@@ -83,6 +83,11 @@ function App() {
           </ListItem>
         ))}
       </List>
+      <div style={{ position: 'absolute', bottom: 0, width: '100%' }}>
+        <ListItem button onClick={toggleLanguage} className={classes.link} style={{ backgroundColor: '#e57373', fontWeight: 'bold' }}>
+          <ListItemText style={{ textAlign: "center" }} primary={language === 'en' ? 'EN' : 'RU'} />
+        </ListItem>
+      </div>
     </div>
   );
 
@@ -105,9 +110,6 @@ function App() {
                 >
                   <MenuIcon />
                 </IconButton>
-                <Button color="inherit" onClick={toggleLanguage}>
-                  {language === 'en' ? 'EN' : 'RU'}
-                </Button>
                 <Drawer anchor="right" open={drawerOpen} onClose={toggleDrawer(false)}>
                   {drawerList()}
                 </Drawer>

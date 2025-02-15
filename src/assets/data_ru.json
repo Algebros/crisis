@@ -578,7 +578,7 @@
         },
         {
             "name": "Streamer",
-            "description": "Никому не сообщайте о вашей роли.",
+            "description": "Никому не сообщайте вашу роль.",
             "faction": "Goodie",
             "feature": "Уведомляет всех Goodie о своей смерти. Killer и Neutral не получают сообщение о вашей смерти."
         },
