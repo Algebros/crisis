@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import data from '../assets/data.json';
+import data2 from '../assets/data_ru.json';
 import { Container, Typography, Accordion, AccordionSummary, AccordionDetails } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { useTranslation } from 'react-i18next';
@@ -9,7 +10,8 @@ function Roles() {
   const { t, i18n } = useTranslation();
 
   useEffect(() => {
-    const factionRoles = data.roles.reduce((acc, role) => {
+    const characters = i18n.language === "en" ? data : data2;
+    const factionRoles = characters.roles.reduce((acc, role) => {
       const { faction } = role;
       if (!acc[faction]) {
         acc[faction] = [];
@@ -33,7 +35,7 @@ function Roles() {
           <Typography variant="body1" gutterBottom>
           {t(`factions.${faction}`)}
           </Typography>
-          {factions[faction].map((role, idx) => (
+          {factions[faction].map((role) => (
             <Accordion key={role.name}>
               <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                 <Typography variant="h6">{role.name}</Typography>
@@ -41,10 +43,10 @@ function Roles() {
               <AccordionDetails>
                 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
                   <Typography component="span" variant="body2" color="textPrimary">
-                    <span style={{ fontWeight: 'bold' }}>Description:</span> {t(`roles.${idx}.description`)}
+                    <span style={{ fontWeight: 'bold' }}>Description:</span> {role.description}
                   </Typography>
                   <Typography component="span" variant="body2" color="textPrimary">
-                    <span style={{ fontWeight: 'bold' }}>Feature:</span> {t(`roles.${idx}.feature`)}
+                    <span style={{ fontWeight: 'bold' }}>Feature:</span> {role.feature}
                   </Typography>
                 </div>
               </AccordionDetails>
