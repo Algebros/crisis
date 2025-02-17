@@ -9,7 +9,8 @@
         "Isnt": "Is not",
         "Ventilation System":"Ventilation System",
         "Security Camera": "Security Camera",
-        "Terminal":"Terminal"
+        "Terminal":"Terminal",
+        "TotalCharacters":"Total Characters"
     },
     "characters": [
         {
@@ -48,7 +49,7 @@
             "classes": [
                 "Diving",
                 "Egg-Laying",
-                "Long-Tailed",
+                "long-tail",
                 "Meat-Eating"
             ],
             "imageUrl": "BruceAvatar.png"
@@ -56,7 +57,7 @@
         {
             "character": "Cabbage Dog",
             "classes": [
-                "Canines",
+                "team-Woof-member",
                 "Plant-Eating"
             ],
             "imageUrl": "Cabbage_Dog_Portrait.png"
@@ -72,10 +73,10 @@
         {
             "character": "Coco",
             "classes": [
-                "Big-Eyed",
+                "big-eyes",
                 "Diving",
                 "Egg-Laying",
-                "Long-Tailed",
+                "long-tail",
                 "Meat-Eating"
             ],
             "imageUrl": "CocoAvatar.png"
@@ -83,10 +84,10 @@
         {
             "character": "Curtis",
             "classes": [
-                "Big-Eyed",
+                "big-eyes",
                 "Egg-Laying",
                 "Horned",
-                "Long-Tailed",
+                "long-tail",
                 "Plant-Eating"
             ],
             "imageUrl": "CurtisAvatar.png"
@@ -94,7 +95,7 @@
         {
             "character": "Dodo",
             "classes": [
-                "Big-Eyed",
+                "big-eyes",
                 "Egg-Laying",
                 "Plant-Eating"
             ],
@@ -103,10 +104,10 @@
         {
             "character": "Dundun",
             "classes": [
-                "Big-Eyed",
-                "Felines",
+                "big-eyes",
+                "team-Meow-member",
                 "Fluffy",
-                "Long-Tailed",
+                "long-tail",
                 "Meat-Eating"
             ],
             "imageUrl": "Dundun_Portrait.png"
@@ -114,9 +115,9 @@
         {
             "character": "Fluffy",
             "classes": [
-                "Canines",
+                "team-Woof-member",
                 "Fluffy",
-                "Long-Tailed",
+                "long-tail",
                 "Meat-Eating"
             ],
             "imageUrl": "FluffyAvatar.png"
@@ -133,7 +134,7 @@
             "character": "Fuguee",
             "classes": [
                 "Fluffy",
-                "Long-Tailed",
+                "long-tail",
                 "Plant-Eating"
             ],
             "imageUrl": "Fuguee_Portrait.png"
@@ -141,9 +142,9 @@
         {
             "character": "Garfat",
             "classes": [
-                "Felines",
+                "team-Meow-member",
                 "Fluffy",
-                "Long-Tailed",
+                "long-tail",
                 "Meat-Eating"
             ],
             "imageUrl": "GarfatAvatars.png"
@@ -151,10 +152,10 @@
         {
             "character": "Googoo",
             "classes": [
-                "Big-Eyed",
+                "big-eyes",
                 "Egg-Laying",
                 "Flying",
-                "Long-Tailed",
+                "long-tail",
                 "Plant-Eating"
             ],
             "imageUrl": "Googoo_Portrait.png"
@@ -170,9 +171,9 @@
         {
             "character": "Hachi",
             "classes": [
-                "Canines",
+                "team-Woof-member",
                 "Fluffy",
-                "Long-Tailed",
+                "long-tail",
                 "Meat-Eating"
             ],
             "imageUrl": "Hachi_Shiba.webp"
@@ -182,7 +183,7 @@
             "classes": [
                 "Diving",
                 "Egg-Laying",
-                "Long-Tailed",
+                "long-tail",
                 "Meat-Eating"
             ],
             "imageUrl": "HammerAvatar.png"
@@ -190,7 +191,7 @@
         {
             "character": "Harry",
             "classes": [
-                "Big-Eyed",
+                "big-eyes",
                 "Diving",
                 "Egg-Laying",
                 "Flying",
@@ -201,7 +202,7 @@
         {
             "character": "Hoot",
             "classes": [
-                "Big-Eyed",
+                "big-eyes",
                 "Egg-Laying",
                 "Flying",
                 "Meat-Eating"
@@ -212,9 +213,9 @@
         {
             "character": "Kato",
             "classes": [
-                "Canines",
+                "team-Woof-member",
                 "Fluffy",
-                "Long-Tailed",
+                "long-tail",
                 "Meat-Eating"
             ],
             "imageUrl": "Kato_Portrait.png"
@@ -222,9 +223,9 @@
         {
             "character": "Kiko",
             "classes": [
-                "Felines",
+                "team-Meow-member",
                 "Fluffy",
-                "Long-Tailed",
+                "long-tail",
                 "Meat-Eating"
             ],
             "imageUrl": "Kiko_Portrait.png"
@@ -240,9 +241,9 @@
         {
             "character": "Levi",
             "classes": [
-                "Felines",
+                "team-Meow-member",
                 "Fluffy",
-                "Long-Tailed",
+                "long-tail",
                 "Meat-Eating"
             ],
             "imageUrl": "Levi.png"
@@ -260,22 +261,22 @@
         {
             "character": "Lotus",
             "classes": [
-                "Big-Eyed",
+                "big-eyes",
                 "Diving",
                 "Egg-Laying",
                 "Fluffy",
                 "Flying",
                 "Horned",
-                "Long-Tailed"
+                "long-tail"
             ],
             "imageUrl": "Lotus_Portrait.png"
         },
         {
             "character": "Lou",
             "classes": [
-                "Canines",
+                "team-Woof-member",
                 "Fluffy",
-                "Long-Tailed",
+                "long-tail",
                 "Meat-Eating"
             ],
             "imageUrl": "LouAvatar.png"
@@ -283,7 +284,7 @@
         {
             "character": "Lamar",
             "classes": [
-                "Big-Eyed",
+                "big-eyes",
                 "Fluffy",
                 "Plant-Eating"
             ],
@@ -293,9 +294,9 @@
         {
             "character": "Macchiato",
             "classes": [
-                "Felines",
+                "team-Meow-member",
                 "Fluffy",
-                "Long-Tailed",
+                "long-tail",
                 "Meat-Eating"
             ],
             "imageUrl": "MacchiatoAvatar.png"
@@ -303,9 +304,9 @@
         {
             "character": "Maneki",
             "classes": [
-                "Felines",
+                "team-Meow-member",
                 "Fluffy",
-                "Long-Tailed",
+                "long-tail",
                 "Meat-Eating"
             ],
             "imageUrl": "Maneki_Portrait.png"
@@ -313,9 +314,9 @@
         {
             "character": "Max",
             "classes": [
-                "Canines",
+                "team-Woof-member",
                 "Fluffy",
-                "Long-Tailed",
+                "long-tail",
                 "Meat-Eating"
             ],
             "imageUrl": "Max.png"
@@ -323,9 +324,9 @@
         {
             "character": "Milky",
             "classes": [
-                "Felines",
+                "team-Meow-member",
                 "Fluffy",
-                "Long-Tailed",
+                "long-tail",
                 "Meat-Eating"
             ],
             "imageUrl": "milky.webp"
@@ -333,7 +334,7 @@
         {
             "character": "Moonmoon",
             "classes": [
-                "Big-Eyed",
+                "big-eyes",
                 "Egg-Laying",
                 "Flying",
                 "Meat-Eating"
@@ -352,9 +353,9 @@
         {
             "character": "Miu",
             "classes": [
-                "Felines",
+                "team-Meow-member",
                 "Fluffy",
-                "Long-Tailed",
+                "long-tail",
                 "Meat-Eating"
             ],
             "imageUrl": "miu.webp"
@@ -362,7 +363,7 @@
         {
             "character": "Nemo",
             "classes": [
-                "Canines",
+                "team-Woof-member",
                 "Fluffy",
                 "Meat-Eating"
             ],
@@ -371,7 +372,7 @@
         {
             "character": "Om Nom",
             "classes": [
-                "Big-Eyed",
+                "big-eyes",
                 "Plant-Eating"
             ],
             "imageUrl": "Om_Nom_Portrait.png"
@@ -379,8 +380,8 @@
         {
             "character": "Ori",
             "classes": [
-                "Big-Eyed",
-                "Long-Tailed"
+                "big-eyes",
+                "long-tail"
             ],
             "imageUrl": "Ori_Portrait.png"
         },
@@ -396,8 +397,8 @@
         {
             "character": "Pensky",
             "classes": [
-                "Big-Eyed",
-                "Canines",
+                "big-eyes",
+                "team-Woof-member",
                 "Diving",
                 "Fluffy",
                 "Meat-Eating"
@@ -407,7 +408,7 @@
         {
             "character": "Ron",
             "classes": [
-                "Canines",
+                "team-Woof-member",
                 "Fluffy",
                 "Meat-Eating"
             ],
@@ -416,9 +417,9 @@
         {
             "character": "Sam",
             "classes": [
-                "Canines",
+                "team-Woof-member",
                 "Fluffy",
-                "Long-Tailed",
+                "long-tail",
                 "Meat-Eating"
             ],
             "imageUrl": "Sam_Portrait.png"
@@ -433,9 +434,9 @@
         {
             "character": "Snow",
             "classes": [
-                "Canines",
+                "team-Woof-member",
                 "Fluffy",
-                "Long-Tailed",
+                "long-tail",
                 "Meat-Eating"
             ],
             "imageUrl": "Snow_Portrait.png"
@@ -452,8 +453,8 @@
         {
             "character": "Sparky",
             "classes": [
-                "Canines",
-                "Long-Tailed",
+                "team-Woof-member",
+                "long-tail",
                 "Meat-Eating"
             ],
             "imageUrl": "SparkyAvatar-23.png"
@@ -469,7 +470,7 @@
         {
             "character": "Stella",
             "classes": [
-                "Canines",
+                "team-Woof-member",
                 "Fluffy",
                 "Meat-Eating"
             ],
@@ -478,9 +479,9 @@
         {
             "character": "Sunday",
             "classes": [
-                "Felines",
+                "team-Meow-member",
                 "Fluffy",
-                "Long-Tailed",
+                "long-tail",
                 "Meat-Eating"
             ],
             "imageUrl": "sunday.webp"
@@ -488,7 +489,7 @@
         {
             "character": "Sunny",
             "classes": [
-                "Canines",
+                "team-Woof-member",
                 "Meat-Eating"
             ],
             "imageUrl": "Sunny_Portrait.png"
@@ -496,7 +497,7 @@
         {
             "character": "The Lamb",
             "classes": [
-                "Big-Eyed",
+                "big-eyes",
                 "Fluffy",
                 "Horned"
             ],
@@ -505,9 +506,9 @@
         {
             "character": "Tiagra",
             "classes": [
-                "Felines",
+                "team-Meow-member",
                 "Fluffy",
-                "Long-Tailed",
+                "long-tail",
                 "Meat-Eating"
             ],
             "imageUrl": "TiagraAvatar.png"
@@ -530,10 +531,10 @@
         {
             "character": "Underbite",
             "classes": [
-                "Big-Eyed",
+                "big-eyes",
                 "Egg-Laying",
                 "Horned",
-                "Long-Tailed",
+                "long-tail",
                 "Meat-Eating"
             ],
             "imageUrl": "UnderbiteAvatar.png"
