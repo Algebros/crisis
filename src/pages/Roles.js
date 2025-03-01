@@ -8,6 +8,7 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 
+const images = require.context('../assets/images/roles', false, /\.(png|jpe?g|svg|webp)$/);
 
 function Roles() {
   const [factions, setFactions] = useState({});
@@ -26,6 +27,15 @@ function Roles() {
     setFactions(factionRoles);
   }, [i18n.language]);
 
+  const getImage = (imageName) => {
+    try {
+      return images(`./${imageName}`);
+    } catch (error) {
+      console.error(`Image not found: ${imageName}`);
+      return null;
+    }
+  };
+
   return (
     <Container>
       {Object.keys(factions).map(faction => (
@@ -39,31 +49,23 @@ function Roles() {
 
           <Grid2 container direction="row" spacing={2}>
             {factions[faction].map((role) => (
-              <Grid2>
+              <Grid2 size={2} key={role.name}>
                 <Card variant="outlined">
                   <CardMedia
-                    sx={{ height: 140 }}
-                    image="/static/images/cards/contemplative-reptile.jpg"
-                    title="green iguana"
+                    image={getImage(role.image)}
+                    title={role.name}
+                    component="img"
                   />
                 </Card>
+                <CardContent>
+                  <Typography gutterBottom variant="h5" component="div">
+                    {role.name}
+                  </Typography>
+                  <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+                    {role.description}
+                  </Typography>
+                </CardContent>
               </Grid2>
-
-              // <Accordion key={role.name}>
-              //   <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-              //     <Typography variant="h6">{role.name}</Typography>
-              //   </AccordionSummary>
-              //   <AccordionDetails>
-              //     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
-              //       <Typography component="span" variant="body2" color="textPrimary">
-              //         <span style={{ fontWeight: 'bold' }}>Description:</span> {role.description}
-              //       </Typography>
-              //       <Typography component="span" variant="body2" color="textPrimary">
-              //         <span style={{ fontWeight: 'bold' }}>Feature:</span> {role.feature}
-              //       </Typography>
-              //     </div>
-              //   </AccordionDetails>
-              // </Accordion>
             ))}
           </Grid2>
         </div>

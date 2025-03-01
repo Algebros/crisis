@@ -575,121 +575,141 @@
             "name": "Average Goodie",
             "description": "Description 1",
             "faction": "Goodie",
-            "feature": "Can’t do anything special."
+            "feature": "Can’t do anything special.",
+            "image": "average_goodie.png"
         },
         {
             "name": "Streamer",
             "description": "Description 2",
             "faction": "Goodie",
-            "feature": "Notifies all goodies upon death."
+            "feature": "Notifies all goodies upon death.",
+            "image": "streamer.png"
         },
         {
             "name": "Screamer",
             "description": "Description 3",
             "faction": "Goodie",
-            "feature": "Triggers a meeting when killed."
+            "feature": "Triggers a meeting when killed.",
+            "image": "screamer.png"
         },
         {
             "name": "Security",
             "description": "Description 4",
             "faction": "Goodie",
-            "feature": "Can kill other players. Eliminated if killing a goodie."
+            "feature": "Can kill other players. Eliminated if killing a goodie.",
+            "image": "security.png"
         },
         {
             "name": "One Shot",
             "description": "Description 5",
             "faction": "Goodie",
-            "feature": "Can kill other players, but only once."
+            "feature": "Can kill other players, but only once.",
+            "image": "one_shot.png"
         },
         {
             "name": "Wolf Granny",
             "description": "Description 6",
             "faction": "Goodie",
-            "feature": "Killers think you’re one of them."
+            "feature": "Killers think you’re one of them.",
+            "image": "wolf_granny.png"
         },
         {
             "name": "Avenger",
             "description": "Description 7",
             "faction": "Goodie",
-            "feature": "Gains a brief kill ability after witnessing a murder."
+            "feature": "Gains a brief kill ability after witnessing a murder.",
+            "image": "avenger.png"
         },
         {
             "name": "Detective",
             "description": "Description 8",
             "faction": "Goodie",
-            "feature": "Can check if a player killed someone between two meetings."
+            "feature": "Can check if a player killed someone between two meetings.",
+            "image": "detective.png"
         },
         {
             "name": "Big Ear",
             "description": "Description 9",
             "faction": "Goodie",
-            "feature": "Can hear from farther away."
+            "feature": "Can hear from farther away.",
+            "image": "big_ear.png"
         },
         {
             "name": "Engineer",
             "description": "Description 10",
             "faction": "Goodie",
-            "feature": "Can use vents for a short time."
+            "feature": "Can use vents for a short time.",
+            "image": "engineer.png"
         },
         {
             "name": "Forensic",
             "description": "Description 11",
             "faction": "Goodie",
-            "feature": "Examine killed players to learn information about the killer."
+            "feature": "Examine killed players to learn information about the killer.",
+            "image": "forensic.png"
         },
         {
             "name": "Average Killer",
             "description": "Description 12",
             "faction": "Killer",
-            "feature": "Can use vents."
+            "feature": "Can use vents.",
+            "image": "average_killer.png"
         },
         {
             "name": "Invisible Killer",
             "description": "Description 13",
             "faction": "Killer",
-            "feature": "Can turn invisible, but can’t see others while invisible."
+            "feature": "Can turn invisible, but can’t see others while invisible.",
+            "image": "invisible_killer.png"
         },
         {
             "name": "Pro Killer",
             "description": "Description 14",
             "faction": "Killer",
-            "feature": "Kills silently and hides the victim."
+            "feature": "Kills silently and hides the victim.",
+            "image": "pro_killer.png"
         },
         {
             "name": "Face/Off Killer",
             "description": "Description 15",
             "faction": "Killer",
-            "feature": "Can take the appearance of another player for a short time."
+            "feature": "Can take the appearance of another player for a short time.",
+            "image": "faceoff_killer.png"
         },
         {
             "name": "Riddle Killer",
             "description": "Description 16",
             "faction": "Killer",
-            "feature": ""
+            "feature": "",
+            "image": "riddle_killer.png"
         },
         {
             "name": "Dumbo",
             "description": "Description 16",
             "faction": "Neutral",
-            "feature": "Wins if voted out."
+            "feature": "Wins if voted out.",
+            "image": "dumbo.png"
         },
         {
             "name": "Death",
             "description": "Description 17",
             "faction": "Neutral",
-            "feature": "Wins by killing everyone."
+            "feature": "Wins by killing everyone.",
+            "image": "death.png"
         },
         {
             "name": "Carnivore",
             "description": "Description 18",
             "faction": "Neutral",
-            "feature": "Can eat other players."
+            "feature": "Can eat other players.",
+            "image": "carnivore.png"
         },
         {
             "name": "Hakkar",
             "description": "Description 19",
             "faction": "Neutral",
-            "feature": "Wins by infecting everyone."
+            "feature": "Wins by infecting everyone.",
+            "image": "hakkar.png"
         }
     ]
 }
