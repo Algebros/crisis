@@ -662,6 +662,12 @@
             "feature": "Can take the appearance of another player for a short time."
         },
         {
+            "name": "Riddle Killer",
+            "description": "Description 16",
+            "faction": "Killer",
+            "feature": ""
+        },
+        {
             "name": "Dumbo",
             "description": "Description 16",
             "faction": "Neutral",
